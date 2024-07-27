@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .login button{
+    width: 100px;
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+}
+
+nav .login button:hover{
+    background-color: rgb(24, 18, 55);
+    color: white;
+}
+
+/* main */
+
+.hero-section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://rlavinsh.github.io/w-1/assets/header-1.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 50px;
+}
+.hero-section h5{
+    color: orangered;
+}
+.hero-section h1{
+    font-size: 2.3rem;
+}
+
+.hero-section a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.hero-section a:hover{
+    color: orangered;
+}
+
+/* get started */
+
+.get-started{
+    background-color: #0a1e27;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.get-started .left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+.get-started .left-section h5{
+    color: orangered;
+}
+.get-started .left-section h2{
+    font-size: 1.8rem;
+}
+
+.get-started .left-section a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.get-started .right-section img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+/* about us */
+
+.aboutus{
+    background-color: #0a1e27;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutus .left-footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.aboutus .left-footer h4{
+    color: white;
+    font-size: 1.8rem;
+}
+
+.aboutus  .blog h5{
+    color: orangered;
+}
+.aboutus  .blog ul li{
+    list-style: none;
+}
+.aboutus  .blog ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.aboutus  .more{
+}
+.aboutus  .more h5{
+    color: orangered;
+}
+.aboutus  .more ul li{
+    list-style: none;
+}
+.aboutus .more ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    padding: 20px;
+    color :white;
+    background-color: #0a1e27;
+    text-align: center;
+}
